@@ -1,0 +1,4 @@
+SHELL=/bin/bash
+
+* * * * * bash /var/scripts/display_environment_variable.sh >> /var/log/display_environment_variable.log 2>&1
+# This line must be always present
